@@ -67,6 +67,11 @@ const router = createRouter({
       path: '/manutencoes',
       name: 'manutencoes',
       component: () => import('../views/ManutencaoView.vue')
+    },
+    {
+      path: '/itens-adicionais',
+      name: 'itens-adicionais',
+      component: () => import('../views/ItemAdicionalView.vue')
     }
   ]
 })
