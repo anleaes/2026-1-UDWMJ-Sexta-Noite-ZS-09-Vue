@@ -52,6 +52,11 @@ const router = createRouter({
       path: '/multas',
       name: 'multas',
       component: () => import('../views/MultaView.vue')
+    },
+    {
+      path: '/adicionais',
+      name: 'adicionais',
+      component: () => import('../views/AdicionalView.vue')
     }
   ]
 })

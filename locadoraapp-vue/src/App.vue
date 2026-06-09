@@ -16,6 +16,7 @@ import { RouterView } from 'vue-router'
       <RouterLink to="/reservas" class="nav-item">Reservas</RouterLink>
       <RouterLink to="/pagamentos" class="nav-item">Pagamentos</RouterLink>
       <RouterLink to="/multas" class="nav-item">Multas</RouterLink>
+      <RouterLink to="/adicionais" class="nav-item">Adicionais</RouterLink>
     </nav>
   </header>
 
